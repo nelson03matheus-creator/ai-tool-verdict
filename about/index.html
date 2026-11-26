@@ -1,18 +1,27 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>About &amp; disclosure | AI Tool Verdict</title><meta name="description" content="How AI Tool Verdict researches reviews, affiliate disclosure and privacy.">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Source+Serif+4:wght@600;700&display=swap">
+<meta property="og:title" content="About &amp; disclosure | AI Tool Verdict"><meta property="og:description" content="How AI Tool Verdict researches reviews, affiliate disclosure and privacy."><meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Source+Serif+4:wght@600;700&display=swap">
 <style>
-:root{--bg:#fbfbfd;--fg:#16181f;--muted:#5b6070;--line:#e3e5ec;--accent:#1f5ed6;--serif:"Source Serif 4",Georgia,serif;--sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif}
-@media(prefers-color-scheme:dark){:root{--bg:#101218;--fg:#e9ebf2;--muted:#a0a6b8;--line:#272b38;--accent:#7aa5ff;color-scheme:dark}}
+:root{--bg:#fbfbfd;--fg:#16181f;--muted:#5b6070;--line:#e3e5ec;--accent:#1f5ed6;--card:#fff;--tint:#eef3fd;
+--serif:"Source Serif 4",Georgia,serif;--sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif}
+@media(prefers-color-scheme:dark){:root{--bg:#101218;--fg:#e9ebf2;--muted:#a0a6b8;--line:#272b38;--accent:#7aa5ff;--card:#171a23;--tint:#1a2235;color-scheme:dark}}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.7 var(--sans)}
 .w{max-width:760px;margin:0 auto;padding:0 max(18px,env(safe-area-inset-left))}
 header{border-bottom:1px solid var(--line)}header .w{display:flex;justify-content:space-between;align-items:center;padding-block:16px;gap:12px;flex-wrap:wrap}
 .logo{font-weight:800;letter-spacing:-.02em;color:var(--fg);text-decoration:none;font-size:1.1rem}.logo span{color:var(--accent)}
 nav a{color:var(--muted);text-decoration:none;margin-left:16px;font-size:.92rem}
-h1,h2{font-family:var(--serif);line-height:1.25;letter-spacing:-.01em}
+h1,h2,h3{font-family:var(--serif);line-height:1.25;letter-spacing:-.01em;text-wrap:balance}
 h1{font-size:2.1rem;margin:.4em 0}h2{font-size:1.45rem;margin-top:1.8em}
-a{color:var(--accent)}
-footer{border-top:1px solid var(--line);margin-top:60px;padding-block:24px;color:var(--muted);font-size:.85rem}</style></head><body>
+a{color:var(--accent)}a.aff{font-weight:600}
+.lead{color:var(--muted);font-size:1.05rem}
+.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px;margin:14px 0;text-decoration:none;color:var(--fg)}
+.card h2{margin:0 0 6px;font-size:1.25rem}.card p{margin:0;color:var(--muted);font-size:.95rem}
+.disc{background:var(--tint);border-radius:8px;padding:10px 14px;font-size:.9rem;color:var(--muted)}
+.meta{color:var(--muted);font-size:.85rem}
+table{border-collapse:collapse;width:100%;display:block;overflow-x:auto}th,td{border:1px solid var(--line);padding:8px 10px;text-align:left}
+footer{border-top:1px solid var(--line);margin-top:60px;padding-block:24px;color:var(--muted);font-size:.85rem}
+img{max-width:100%}code{font-size:.9em}</style></head><body>
 <header><div class="w"><a class="logo" href="./../">AI Tool <span>Verdict</span></a><nav><a href="./../">Reviews</a><a href="./../about/">About</a></nav></div></header>
 <main class="w"><h1>About AI Tool Verdict</h1>
 <p>AI Tool Verdict publishes practical guides to AI and online-business software for creators, freelancers and small businesses.</p>
@@ -20,5 +29,6 @@ footer{border-top:1px solid var(--line);margin-top:60px;padding-block:24px;color
 <h2>Affiliate disclosure</h2><p>Some links on this site are affiliate links. If you sign up or buy through them, we may earn a commission at no extra cost to you. Commissions never decide what we recommend, and we point out who a tool is <em>not</em> for.</p>
 <h2>Privacy</h2><p>This site uses GoatCounter, a privacy-friendly analytics tool that sets no cookies and collects no personal data, to count page views and clicks on outbound links. We show no ads. Vendor websites you visit through our links have their own privacy policies.</p></main>
 <footer><div class="w">© 2026 AI Tool Verdict. Some links are affiliate links: if you buy through them we may earn a commission at no extra cost to you. It never changes what we write. <a href="./../about/">Disclosure & privacy</a>.</div></footer>
+<script>document.addEventListener("click",function(e){var a=e.target.closest("a.aff");if(a&&window.goatcounter&&goatcounter.count){goatcounter.count({path:"aff-"+new URL(a.href).hostname.replace("www.",""),title:"Affiliate click",event:true})}});</script>
 <script data-goatcounter="https://aitoolverdict.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body></html>
